@@ -70,7 +70,7 @@ public class RenProyec {
         
         /* Cálculo de la diferencia entre tipos de tasas */
     	double diferencia = calcularInteresCompuesto( ) - calcularInteresSimple( );
-        if ( diferencia>0)
+        if ( diferencia>=0)
         {    		
         	return "La diferencia en el total de intereses generados para el proyecto, si escogemos entre evaluarlo a una tasa de interés Compuesto y evaluarlo a una tasa de interés Simple, asciende a la cifra de: $" + diferencia;  
         }
